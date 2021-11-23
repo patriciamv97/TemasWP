@@ -29,3 +29,29 @@ body {
     display: block;
     margin: auto;
 }
+
+div.static{
+    position: static;
+}
+
+.relative {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+
+}
+div.fixed{
+    position: fixed;
+    top: 80%
+}
+div.absolute{
+    position: absolute;
+    left: 25%;
+    height: 70%;
+}
+
+div.relative2 {
+    position: relative;
+    left: 1%;
+}

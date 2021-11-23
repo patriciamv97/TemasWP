@@ -9,18 +9,18 @@
 
 get_header();
 ?>
-    <div id="contenedor">
-        <div id="cabecera" >
+    <div id="contenedor" class="static">
+        <div id="cabecera" class="relative2" >
             <h1 style="text-align: center">HOLA</h1>
         </div>
-        <div id="cuerpo">
+        <div id="cuerpo" class="absolute">
             <h1 style="color: #996800; text-align: center; margin-top: 1%;">Mi 404.php personalizado. <br>Página no
                 encontrada.</h1>
-            <img class="center" width="50%" height="50%"
+            <img class="relative"
                  src="<?php echo get_stylesheet_directory_uri(); ?>/imagenes/404.jpeg ">
 
         </div>
     </div>
-    <div style="margin-top: 1%"><?php get_footer();?></div>
+    <div class="fixed"><?php get_footer();?></div>
 <?php
 
