@@ -24,3 +24,8 @@ body {
 .amarillo{
     background-color:#996800;
 }
+
+.center {
+    display: block;
+    margin: auto;
+}

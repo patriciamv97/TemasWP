@@ -9,22 +9,18 @@
 
 get_header();
 ?>
-
-
-
-    <!--Mi 404 personalizado-->
     <div id="contenedor">
-        <div id="cabecera" class="amarillo">
+        <div id="cabecera" >
             <h1 style="text-align: center">HOLA</h1>
         </div>
         <div id="cuerpo">
-            <h1 style="color: #996800; text-align: center; margin-top: 5%">Mi 404.php personalizado. <br>Página no
+            <h1 style="color: #996800; text-align: center; margin-top: 1%;">Mi 404.php personalizado. <br>Página no
                 encontrada.</h1>
-            <img style=" display: block; margin: auto"
+            <img class="center" width="50%" height="50%"
                  src="<?php echo get_stylesheet_directory_uri(); ?>/imagenes/404.jpeg ">
 
         </div>
     </div>
-    <div style="margin-top: 20%"><?php get_footer();?></div>
+    <div style="margin-top: 1%"><?php get_footer();?></div>
 <?php
 
