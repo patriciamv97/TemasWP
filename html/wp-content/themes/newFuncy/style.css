@@ -16,11 +16,25 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 body {
-    background: #62219b;
+    background: #7748a4;
 
 }
+.moradoOscuro{
+    color: #280146
+}
+.link{
+    color: #4b0383
+}
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    border:#280146 5px dashed;
+    padding: 1%;
+}
 
-
+.borderSolid{
+    border:#280146 2px solid;
+}
 .amarillo{
     background-color:#996800;
 }

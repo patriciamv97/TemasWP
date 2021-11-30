@@ -1,3 +1,2 @@
-<h1>FOOTER</h1>
-
+<h1 class="moradoOscuro">FOOTER</h1>
 <?php
